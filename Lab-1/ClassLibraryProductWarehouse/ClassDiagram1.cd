@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassLibraryProductWarehouse.Currency.EUR">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Currency\EUR.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Currency.UAH">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Currency\UAH.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Currency.USD">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Currency\USD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Monies.Money">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAEAAACAACACAACEAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Monies\Money.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Monies.MoneyOperations">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAQAAAACAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Monies\MoneyOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Monies.MoneyValidator">
+    <Position X="2.75" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAQACAACAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Monies\MoneyValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Monies.PriceService">
+    <Position X="4.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Monies\PriceService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Product.BaseProduct">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAQAAAAAEIAAAAAQAAAAAAAAAAAAAAABAAAI=</HashCode>
+      <FileName>Product\BaseProduct.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Product.DigitalProduct">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Product\DigitalProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Product.PhysicalProduct">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAA=</HashCode>
+      <FileName>Product\PhysicalProduct.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Storage.StockManager">
+    <Position X="10.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Storage\StockManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Storage.Warehouse">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Storage\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Reporting.InventoryReportGenerator">
+    <Position X="7.5" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reporting\InventoryReportGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Reporting.StockArrivalReportManager">
+    <Position X="10.25" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reporting\StockArrivalReportManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Reporting.StockShipmentReportManager">
+    <Position X="13" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Reporting\StockShipmentReportManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Monies.MoneyConstants">
+    <Position X="2.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Monies\MoneyConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Storage.StockItem">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAIACAFAAIAAAAAAAAAAAAAAIAAAAQAAAA=</HashCode>
+      <FileName>Storage\StockItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProductWarehouse.Storage.WarehouseStock">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAQAI=</HashCode>
+      <FileName>Storage\WarehouseStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ClassLibraryProductWarehouse.Currency.ICurrency">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Currency\ICurrency.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProductWarehouse.Product.IShippableProduct">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Product\IShippableProduct.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProductWarehouse.Storage.IStockManager">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Storage\IStockManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProductWarehouse.Product.IProduct">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAIAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Product\IProduct.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
