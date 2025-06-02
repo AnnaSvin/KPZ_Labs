@@ -29,11 +29,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryProxyPattern", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 5 6", "Task 5 6", "{E999FE9A-5F3D-4DC9-957F-4F5A4E60F0AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryCompositePatternAndFlyweight", "ClassLibraryCompositePattern\ClassLibraryCompositePatternAndFlyweight.csproj", "{2448701C-98BC-4109-8996-98284E7147D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryOwnHTML", "ClassLibraryCompositePattern\ClassLibraryOwnHTML.csproj", "{2448701C-98BC-4109-8996-98284E7147D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{6353175F-1F70-49B4-814F-579DA3294C8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{40E9D3CE-AADB-408E-89AC-0F064B35C0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{CA60C23E-FCF9-490A-ADD1-707EAD15BD44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{40E9D3CE-AADB-408E-89AC-0F064B35C0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E9D3CE-AADB-408E-89AC-0F064B35C0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E9D3CE-AADB-408E-89AC-0F064B35C0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA60C23E-FCF9-490A-ADD1-707EAD15BD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA60C23E-FCF9-490A-ADD1-707EAD15BD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA60C23E-FCF9-490A-ADD1-707EAD15BD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA60C23E-FCF9-490A-ADD1-707EAD15BD44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +107,7 @@ Global
 		{2448701C-98BC-4109-8996-98284E7147D8} = {E999FE9A-5F3D-4DC9-957F-4F5A4E60F0AC}
 		{6353175F-1F70-49B4-814F-579DA3294C8B} = {E999FE9A-5F3D-4DC9-957F-4F5A4E60F0AC}
 		{40E9D3CE-AADB-408E-89AC-0F064B35C0B8} = {E999FE9A-5F3D-4DC9-957F-4F5A4E60F0AC}
+		{CA60C23E-FCF9-490A-ADD1-707EAD15BD44} = {E999FE9A-5F3D-4DC9-957F-4F5A4E60F0AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56C566F3-54A0-4FB2-BEF9-3C4CE342DCA8}

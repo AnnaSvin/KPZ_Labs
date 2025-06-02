@@ -83,6 +83,4 @@ public class LightElementNode : LightNode
             return sb.ToString();
         }
     }
-
-
 }
