@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibraryOwnHTML;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -83,6 +84,13 @@ public class LightElementNode : LightNode
             return sb.ToString();
         }
     }
+    public IIterator<LightNode> CreateDepthFirstIterator()
+    {
+        return new DepthFirstIterator(this);
+    }
 
-
+    public IIterator<LightNode> CreateBreadthFirstIterator()
+    {
+        return new BreadthFirstIterator(this);
+    }
 }
