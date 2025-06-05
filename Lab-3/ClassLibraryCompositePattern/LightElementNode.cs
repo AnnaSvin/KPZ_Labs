@@ -39,50 +39,49 @@ public class LightElementNode : LightNode
         }
     }
 
-    public override string OuterHTML
+    private IRenderState _renderState = new NormalRenderState();
+    public void SetRenderState(IRenderState newState) => _renderState = newState;
+
+    public override string OuterHTML => _renderState.Render(this);
+
+    public string RenderWithIndentation()
     {
-        get
+        var sb = new StringBuilder();
+        string indent = new string(' ', IndentLevel * 2);
+
+        sb.Append($"{indent}<{TagName}");
+
+        if (CssClasses.Count > 0)
         {
-            var sb = new StringBuilder();
-            string indent = new string(' ', IndentLevel * 2);
-
-            sb.Append($"{indent}<{TagName}");
-
-            if (CssClasses.Count > 0)
-            {
-                sb.Append($" class=\"{string.Join(" ", CssClasses)}\"");
-            }
-
-            sb.Append(">");
-
-            bool hasNestedElements = Children.OfType<LightElementNode>().Any();
-
-            if (hasNestedElements)
-            {
-                sb.AppendLine();
-
-                foreach (var child in Children)
-                {
-                    if (child is LightElementNode elem)
-                        elem.IndentLevel = this.IndentLevel + 1;
-
-                    sb.AppendLine(child.OuterHTML);
-                }
-
-                sb.Append($"{indent}</{TagName}>");
-            }
-            else
-            {
-                foreach (var child in Children)
-                {
-                    sb.Append(child.OuterHTML);
-                }
-
-                sb.Append($"</{TagName}>");
-            }
-
-            return sb.ToString();
+            sb.Append($" class=\"{string.Join(" ", CssClasses)}\"");
         }
+
+        sb.Append(">");
+
+        bool hasNestedElements = Children.OfType<LightElementNode>().Any();
+
+        if (hasNestedElements)
+        {
+            sb.AppendLine();
+            foreach (var child in Children)
+            {
+                if (child is LightElementNode elem)
+                    elem.IndentLevel = this.IndentLevel + 1;
+
+                sb.AppendLine(child.OuterHTML);
+            }
+            sb.Append($"{indent}</{TagName}>");
+        }
+        else
+        {
+            foreach (var child in Children)
+            {
+                sb.Append(child.OuterHTML);
+            }
+            sb.Append($"</{TagName}>");
+        }
+
+        return sb.ToString();
     }
 
     public IIterator<LightNode> CreateDepthFirstIterator()
