@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibraryOwnHTML;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -83,6 +84,12 @@ public class LightElementNode : LightNode
             return sb.ToString();
         }
     }
-
-
+    public override void Accept(IVisitor visitor)
+    {
+        visitor.Visit(this);
+        foreach (var child in Children)
+        {
+            child.Accept(visitor);
+        }
+    }
 }
