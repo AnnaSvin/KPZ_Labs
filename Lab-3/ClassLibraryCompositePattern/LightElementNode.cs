@@ -84,6 +84,7 @@ public class LightElementNode : LightNode
             return sb.ToString();
         }
     }
+
     public IIterator<LightNode> CreateDepthFirstIterator()
     {
         return new DepthFirstIterator(this);
@@ -92,5 +93,14 @@ public class LightElementNode : LightNode
     public IIterator<LightNode> CreateBreadthFirstIterator()
     {
         return new BreadthFirstIterator(this);
+    }
+
+    public override void Accept(IVisitor visitor)
+    {
+        visitor.Visit(this);
+        foreach (var child in Children)
+        {
+            child.Accept(visitor);
+        }
     }
 }
