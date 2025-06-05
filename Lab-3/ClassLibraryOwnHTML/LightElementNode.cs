@@ -84,6 +84,7 @@ public class LightElementNode : LightNode
             return sb.ToString();
         }
     }
+
     public IIterator<LightNode> CreateDepthFirstIterator()
     {
         return new DepthFirstIterator(this);
