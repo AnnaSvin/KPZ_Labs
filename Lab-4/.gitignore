@@ -1,0 +1,22 @@
+# Visual Studio файли
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build файли
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# IDE файли
+*.vcxproj*
+*.csproj*
+*.vbproj*
+*.dbmdl
+*.jfm
